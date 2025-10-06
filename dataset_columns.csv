@@ -1,194 +1,191 @@
 ,Features
-0,"C, wt.%"
-1,"Si, wt.%"
-2,"Mn, wt.%"
-3,"P, wt.%"
-4,"S, wt.%"
-5,"Ni, wt.%"
-6,"Cr, wt.%"
-7,"Mo, wt.%"
-8,"Al, wt.%"
-9,"N, wt.%"
-10,"Ti, wt.%"
-11,"Fe, wt.%"
-12,"Nb, wt.%"
-13,"B, wt.%"
-14,"Cu, wt.%"
-15,"V, wt.%"
-16,"Zr, wt.%"
-17,"W, wt.%"
-18,"Sn, wt.%"
-19,"Co, wt.%"
-20,"O, wt,%"
-21,"Ta, wt.%"
-22,"As, wt%"
-23,"Sb, wt.%"
-24,Length (mm)
-25,Width (mm)
-26,Thickness (mm)
-27,Test Temperature (C) 
-28,Impact energy (J)
-29,DBTT
-30,USE
-31,W/T
-32,L/T
-33,Area
-34,W/L
-35,MagpieData minimum Number
-36,MagpieData maximum Number
-37,MagpieData range Number
-38,MagpieData mean Number
-39,MagpieData avg_dev Number
-40,MagpieData mode Number
-41,MagpieData minimum MendeleevNumber
-42,MagpieData maximum MendeleevNumber
-43,MagpieData range MendeleevNumber
-44,MagpieData mean MendeleevNumber
-45,MagpieData avg_dev MendeleevNumber
-46,MagpieData mode MendeleevNumber
-47,MagpieData minimum AtomicWeight
-48,MagpieData maximum AtomicWeight
-49,MagpieData range AtomicWeight
-50,MagpieData mean AtomicWeight
-51,MagpieData avg_dev AtomicWeight
-52,MagpieData mode AtomicWeight
-53,MagpieData minimum MeltingT
-54,MagpieData maximum MeltingT
-55,MagpieData range MeltingT
-56,MagpieData mean MeltingT
-57,MagpieData avg_dev MeltingT
-58,MagpieData mode MeltingT
-59,MagpieData minimum Column
-60,MagpieData maximum Column
-61,MagpieData range Column
-62,MagpieData mean Column
-63,MagpieData avg_dev Column
-64,MagpieData mode Column
-65,MagpieData minimum Row
-66,MagpieData maximum Row
-67,MagpieData range Row
-68,MagpieData mean Row
-69,MagpieData avg_dev Row
-70,MagpieData mode Row
-71,MagpieData minimum CovalentRadius
-72,MagpieData maximum CovalentRadius
-73,MagpieData range CovalentRadius
-74,MagpieData mean CovalentRadius
-75,MagpieData avg_dev CovalentRadius
-76,MagpieData mode CovalentRadius
-77,MagpieData minimum Electronegativity
-78,MagpieData maximum Electronegativity
-79,MagpieData range Electronegativity
-80,MagpieData mean Electronegativity
-81,MagpieData avg_dev Electronegativity
-82,MagpieData mode Electronegativity
-83,MagpieData minimum NsValence
-84,MagpieData maximum NsValence
-85,MagpieData range NsValence
-86,MagpieData mean NsValence
-87,MagpieData avg_dev NsValence
-88,MagpieData mode NsValence
-89,MagpieData minimum NpValence
-90,MagpieData maximum NpValence
-91,MagpieData range NpValence
-92,MagpieData mean NpValence
-93,MagpieData avg_dev NpValence
-94,MagpieData mode NpValence
-95,MagpieData minimum NdValence
-96,MagpieData maximum NdValence
-97,MagpieData range NdValence
-98,MagpieData mean NdValence
-99,MagpieData avg_dev NdValence
-100,MagpieData mode NdValence
-101,MagpieData minimum NfValence
-102,MagpieData maximum NfValence
-103,MagpieData range NfValence
-104,MagpieData mean NfValence
-105,MagpieData avg_dev NfValence
-106,MagpieData mode NfValence
-107,MagpieData minimum NValence
-108,MagpieData maximum NValence
-109,MagpieData range NValence
-110,MagpieData mean NValence
-111,MagpieData avg_dev NValence
-112,MagpieData mode NValence
-113,MagpieData minimum NsUnfilled
-114,MagpieData maximum NsUnfilled
-115,MagpieData range NsUnfilled
-116,MagpieData mean NsUnfilled
-117,MagpieData avg_dev NsUnfilled
-118,MagpieData mode NsUnfilled
-119,MagpieData minimum NpUnfilled
-120,MagpieData maximum NpUnfilled
-121,MagpieData range NpUnfilled
-122,MagpieData mean NpUnfilled
-123,MagpieData avg_dev NpUnfilled
-124,MagpieData mode NpUnfilled
-125,MagpieData minimum NdUnfilled
-126,MagpieData maximum NdUnfilled
-127,MagpieData range NdUnfilled
-128,MagpieData mean NdUnfilled
-129,MagpieData avg_dev NdUnfilled
-130,MagpieData mode NdUnfilled
-131,MagpieData minimum NfUnfilled
-132,MagpieData maximum NfUnfilled
-133,MagpieData range NfUnfilled
-134,MagpieData mean NfUnfilled
-135,MagpieData avg_dev NfUnfilled
-136,MagpieData mode NfUnfilled
-137,MagpieData minimum NUnfilled
-138,MagpieData maximum NUnfilled
-139,MagpieData range NUnfilled
-140,MagpieData mean NUnfilled
-141,MagpieData avg_dev NUnfilled
-142,MagpieData mode NUnfilled
-143,MagpieData minimum GSvolume_pa
-144,MagpieData maximum GSvolume_pa
-145,MagpieData range GSvolume_pa
-146,MagpieData mean GSvolume_pa
-147,MagpieData avg_dev GSvolume_pa
-148,MagpieData mode GSvolume_pa
-149,MagpieData minimum GSbandgap
-150,MagpieData maximum GSbandgap
-151,MagpieData range GSbandgap
-152,MagpieData mean GSbandgap
-153,MagpieData avg_dev GSbandgap
-154,MagpieData mode GSbandgap
-155,MagpieData minimum GSmagmom
-156,MagpieData maximum GSmagmom
-157,MagpieData range GSmagmom
-158,MagpieData mean GSmagmom
-159,MagpieData avg_dev GSmagmom
-160,MagpieData mode GSmagmom
-161,MagpieData minimum SpaceGroupNumber
-162,MagpieData maximum SpaceGroupNumber
-163,MagpieData range SpaceGroupNumber
-164,MagpieData mean SpaceGroupNumber
-165,MagpieData avg_dev SpaceGroupNumber
-166,MagpieData mode SpaceGroupNumber
-167,Total_Alloy_wt
-168,Embrittling_Elements
-169,Toughness_Enhancers
-170,Hardener_Elements
-171,Aging_Sensitive
-172,Carbon_Equivalent
-173,Fe_Deficit
-174,C_Mn
-175,Cr_Mo_V_Ni
-176,NiMn_to_CrMoV
-177,Ni_to_Fe
-178,Cr_to_Fe
-179,Mo_to_Fe
-180,Volume
-181,Surface_Area
-182,Compactness
-183,Impact_energy_per_Area
-184,Impact_energy_per_Volume
-185,Elemental_count
-186,Std_dev_wt
-187,Shannon_entropy_composition
-188,C_times_Mn
-189,Mn_times_Cr
-190,Ni_times_Mo
-191,Solid_solution_strengthening
-192,Hardness_index
+1,"C, wt.%"
+2,"Si, wt.%"
+3,"Mn, wt.%"
+4,"P, wt.%"
+5,"S, wt.%"
+6,"Ni, wt.%"
+7,"Cr, wt.%"
+8,"Mo, wt.%"
+9,"Al, wt.%"
+10,"N, wt.%"
+11,"Ti, wt.%"
+12,"Fe, wt.%"
+13,"Nb, wt.%"
+14,"B, wt.%"
+15,"Cu, wt.%"
+16,"V, wt.%"
+17,"Zr, wt.%"
+18,"W, wt.%"
+19,"Sn, wt.%"
+20,"Co, wt.%"
+21,"O, wt,%"
+22,"Ta, wt.%"
+23,"As, wt%"
+24,"Sb, wt.%"
+25,Test Temperature (C) 
+26,Impact energy (J)
+Magpie Features,
+27,MagpieData minimum Number
+28,MagpieData maximum Number
+29,MagpieData range Number
+30,MagpieData mean Number
+31,MagpieData avg_dev Number
+32,MagpieData mode Number
+33,MagpieData minimum MendeleevNumber
+34,MagpieData maximum MendeleevNumber
+35,MagpieData range MendeleevNumber
+36,MagpieData mean MendeleevNumber
+37,MagpieData avg_dev MendeleevNumber
+38,MagpieData mode MendeleevNumber
+39,MagpieData minimum AtomicWeight
+40,MagpieData maximum AtomicWeight
+41,MagpieData range AtomicWeight
+42,MagpieData mean AtomicWeight
+43,MagpieData avg_dev AtomicWeight
+44,MagpieData mode AtomicWeight
+45,MagpieData minimum MeltingT
+46,MagpieData maximum MeltingT
+47,MagpieData range MeltingT
+48,MagpieData mean MeltingT
+49,MagpieData avg_dev MeltingT
+50,MagpieData mode MeltingT
+51,MagpieData minimum Column
+52,MagpieData maximum Column
+53,MagpieData range Column
+54,MagpieData mean Column
+55,MagpieData avg_dev Column
+56,MagpieData mode Column
+57,MagpieData minimum Row
+58,MagpieData maximum Row
+59,MagpieData range Row
+60,MagpieData mean Row
+61,MagpieData avg_dev Row
+62,MagpieData mode Row
+63,MagpieData minimum CovalentRadius
+64,MagpieData maximum CovalentRadius
+65,MagpieData range CovalentRadius
+66,MagpieData mean CovalentRadius
+67,MagpieData avg_dev CovalentRadius
+68,MagpieData mode CovalentRadius
+69,MagpieData minimum Electronegativity
+70,MagpieData maximum Electronegativity
+71,MagpieData range Electronegativity
+72,MagpieData mean Electronegativity
+73,MagpieData avg_dev Electronegativity
+74,MagpieData mode Electronegativity
+75,MagpieData minimum NsValence
+76,MagpieData maximum NsValence
+77,MagpieData range NsValence
+78,MagpieData mean NsValence
+79,MagpieData avg_dev NsValence
+80,MagpieData mode NsValence
+81,MagpieData minimum NpValence
+82,MagpieData maximum NpValence
+83,MagpieData range NpValence
+84,MagpieData mean NpValence
+85,MagpieData avg_dev NpValence
+86,MagpieData mode NpValence
+87,MagpieData minimum NdValence
+88,MagpieData maximum NdValence
+89,MagpieData range NdValence
+90,MagpieData mean NdValence
+91,MagpieData avg_dev NdValence
+92,MagpieData mode NdValence
+93,MagpieData minimum NfValence
+94,MagpieData maximum NfValence
+95,MagpieData range NfValence
+96,MagpieData mean NfValence
+97,MagpieData avg_dev NfValence
+98,MagpieData mode NfValence
+99,MagpieData minimum NValence
+100,MagpieData maximum NValence
+101,MagpieData range NValence
+102,MagpieData mean NValence
+103,MagpieData avg_dev NValence
+104,MagpieData mode NValence
+105,MagpieData minimum NsUnfilled
+106,MagpieData maximum NsUnfilled
+107,MagpieData range NsUnfilled
+108,MagpieData mean NsUnfilled
+109,MagpieData avg_dev NsUnfilled
+110,MagpieData mode NsUnfilled
+111,MagpieData minimum NpUnfilled
+112,MagpieData maximum NpUnfilled
+113,MagpieData range NpUnfilled
+114,MagpieData mean NpUnfilled
+115,MagpieData avg_dev NpUnfilled
+116,MagpieData mode NpUnfilled
+117,MagpieData minimum NdUnfilled
+118,MagpieData maximum NdUnfilled
+119,MagpieData range NdUnfilled
+120,MagpieData mean NdUnfilled
+121,MagpieData avg_dev NdUnfilled
+122,MagpieData mode NdUnfilled
+123,MagpieData minimum NfUnfilled
+124,MagpieData maximum NfUnfilled
+125,MagpieData range NfUnfilled
+126,MagpieData mean NfUnfilled
+127,MagpieData avg_dev NfUnfilled
+128,MagpieData mode NfUnfilled
+129,MagpieData minimum NUnfilled
+130,MagpieData maximum NUnfilled
+131,MagpieData range NUnfilled
+132,MagpieData mean NUnfilled
+133,MagpieData avg_dev NUnfilled
+134,MagpieData mode NUnfilled
+135,MagpieData minimum GSvolume_pa
+136,MagpieData maximum GSvolume_pa
+137,MagpieData range GSvolume_pa
+138,MagpieData mean GSvolume_pa
+139,MagpieData avg_dev GSvolume_pa
+140,MagpieData mode GSvolume_pa
+141,MagpieData minimum GSbandgap
+142,MagpieData maximum GSbandgap
+143,MagpieData range GSbandgap
+144,MagpieData mean GSbandgap
+145,MagpieData avg_dev GSbandgap
+146,MagpieData mode GSbandgap
+147,MagpieData minimum GSmagmom
+148,MagpieData maximum GSmagmom
+149,MagpieData range GSmagmom
+150,MagpieData mean GSmagmom
+151,MagpieData avg_dev GSmagmom
+152,MagpieData mode GSmagmom
+153,MagpieData minimum SpaceGroupNumber
+154,MagpieData maximum SpaceGroupNumber
+155,MagpieData range SpaceGroupNumber
+156,MagpieData mean SpaceGroupNumber
+157,MagpieData avg_dev SpaceGroupNumber
+158,MagpieData mode SpaceGroupNumber
+Engineered Features,
+159,Total_Alloy_wt
+160,Embrittling_Elements
+161,Toughness_Enhancers
+162,Hardener_Elements
+163,Aging_Sensitive
+164,Carbon_Equivalent
+165,Fe_Deficit
+166,C_Mn
+167,Cr_Mo_V_Ni
+168,NiMn_to_CrMoV
+169,Ni_to_Fe
+170,Cr_to_Fe
+171,Mo_to_Fe
+172,Volume
+173,Surface_Area
+174,Compactness
+175,Impact_energy_per_Area
+176,Impact_energy_per_Volume
+177,Elemental_count
+178,Std_dev_wt
+179,Shannon_entropy_composition
+180,C_times_Mn
+181,Mn_times_Cr
+182,Ni_times_Mo
+183,Solid_solution_strengthening
+184,Hardness_index
+185,W/T
+186,L/T
+187,Area
+188,W/L
